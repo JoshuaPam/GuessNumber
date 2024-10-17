@@ -1,38 +1,35 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+  background-color: black;  /* Set background color to black */
+  color: pink;  /* Set text color to pink */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  background-color: #333;  /* Dark background for the input */
+  color: pink;  /* Pink text inside the input */
+  border: 2px solid pink;  /* Pink border for the input */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: pink;  /* Pink background for the button */
+  color: black;  /* Black text for the button */
+  border: none;
+  border-radius: 5px;  /* Slight border-radius for a smooth look */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  background-color: #ff66b2;  /* Light pink hover effect */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-size: 18px;
+  color: pink;  /* Pink text for feedback and attempts */
 }
